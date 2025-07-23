@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+    <title>Ariff Azman</title>
+
+    <style>
+    /* Template level */
+body {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+#resume {
+    max-width: 800px;
+    width: 100%;
+    padding: 24px 48px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    border-width: 1px;
+    border-style: none none solid none;
+    margin: 10px 0 2.5px 0;
+}
+
+section {
+    margin: 3px 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    margin-top: 8px;
+}
+
+.item>.item-header {
+    float: left;
+    display: block;
+}
+
+.item>.item-header>.item-header-title {
+    font-weight: bold;
+}
+
+.item>.item-header>.item-header-subtitle {
+    font-style: italic;
+}
+
+.item>.item-details {
+    float: right;
+    text-align: right;
+}
+
+.item>.item-details>.item-details-title {
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Section specific */
+/* basics */
+.vertical-separator {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.vertical-separator:not(:first-child) {
+    border-left: 1px solid #000;
+    text-align: center;
+}
+
+/* Set some print settings. */
+@media print {
+    @page {
+        size: portrait;
+        margin: 5mm 5mm;
+    }
+    #resume {
+        max-width: 100%;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    body,
+    html,
+    #resume {
+        margin: 0px;
+        padding: 0px;
+    }
+    .controls {
+        display: none;
+    }
+}
+
+    </style>
+
+    </head>
+    <body>
+
+    <div id="resume">
+        <section id="basics">
+            <h1>Ariff Azman</h1>
+            <div class="contact centered">
+        <span class="vertical-separator"><a href="mailto:contact@opariffazman.com">contact@opariffazman.com</a></span><span class="vertical-separator">(+60) 124414248</span><span class="vertical-separator">Kuala Lumpur, MY</span><span class="vertical-separator"><a href="https://opariffazman.com">opariffazman.com</a></span>    </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="item">
+                <li>
+                    <strong>Infrastructure Management</strong>: Terraform, CloudFormation, Ansible, VMware, Proxmox, Hyper-V, AWS, Azure, GCP
+                </li>
+                <li>
+                    <strong>Platform Engineering</strong>: Docker, Kubernetes, Helm, Argo CD, GitLab CI, GitHub Actions, Jenkins, TeamCity, Azure DevOps
+                </li>
+                <li>
+                    <strong>Observability &amp; Reliability</strong>: Prometheus, Grafana, InfluxDB, Telegraf
+                </li>
+                <li>
+                    <strong>Automation</strong>: PowerShell, Bash, Python, JavaScript, Git, SVN, Perforce
+                </li>
+            </ul>
+        </section>
+        <section id="work">
+            <h2>Work Experience</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Ammobox Studios
+                </div>
+                <div class="item-header-subtitle">
+                    DevOps Lead
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Selangor
+                </div>
+                <div class="date">
+                    Sep 2022 — Present
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Automated build agent setup for Windows and Linux servers for consistent environments eliminating manual configuration</li>
+                        <li>Enabled automated, traceable source engine build testing by embedding an idempotent environment setup within CI/CD</li>
+                        <li>Accelerated development lifecycle by 90% by designing modular and agnostic CI/CD pipelines for 8 projects</li>
+                        <li>Reduced release cycle time by 70% by automating the overall release processes for 8 games on Steam Store and Epic Game Store</li>
+                        <li>Converted manual API deployment processes into automated workflows integrated with IaC tools, ensuring consistency and reliability</li>
+                        <li>Standardized cloud resources across 5 projects by reusable Terraform modules for AWS enabling code reuse and maintainability</li>
+                        <li>Developed a scalable Unreal Pixel Streaming infrastructure on AWS to decrease EC2 allocation time and minimize operational costs</li>
+                        <li>Incorporated automatic build error alerts for all projects proactively notifying developers of issues, reducing debugging time</li>
+                        <li>Enforcing cloud native best practices in security for AWS IAM roles and policies ensuring least privilege access and compliance</li>
+                        <li>Integrated symbol uploading for 6 projects to crash and error reporting tool via CI/CD, enabling faster and accurate debugging</li>
+                        <li>Implemented single sign on setup with OAuth2 for internal services allowing secure and seamless access for developers</li>
+                        <li>Increased cloud resources management efficiency by 80% by developing a multi-tenant automation tool with ElectronJS</li>
+                        <li>Expedited developer onboarding by managing repository setup and user access for SVN, Perforce, and Git version control systems</li>
+                        <li>Eliminated local compilation needs saving developers' time by distributing development binaries through CI/CD pipeline</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Exxon Mobil Corporation
+                </div>
+                <div class="item-header-subtitle">
+                    Automation Engineer
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Kuala Lumpur
+                </div>
+                <div class="date">
+                    Sep 2021 — Sep 2022
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Migrated production API from cloud to on-premise solutions achieving 100% uptime and maintaining operational continuity</li>
+                        <li>Reduced manual Azure AD configuration steps and potential errors by 95% by scripting role assignments with developed scripts</li>
+                        <li>Achieved 100% API test coverage and reliability by integrating automated API tests into CI/CD pipeline</li>
+                        <li>Simplified client application onboarding and adoption by 90% through the creation of comprehensive API documentation</li>
+                        <li>Optimized storage usage by developing API automation to manage and prevent unintended removal of orphaned business content</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Petronas Digital
+                </div>
+                <div class="item-header-subtitle">
+                    Infrastructure Engineer
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="item-details-title">
+                    Kuala Lumpur
+                </div>
+                <div class="date">
+                    Sep 2018 — Sep 2021
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+                    <ul class="highlights">
+                        <li>Optimized compute delivery time by automating provisioning and hardening eliminating manual configuration errors</li>
+                        <li>Reduced disaster recovery completion time by 93% by automating ESXi host, storage, and VM recovery processes using developed scripts</li>
+                        <li>Increased infrastructure management accuracy and ease of use to 100% by developing custom scripts for bulk resource operations</li>
+                        <li>Secured 99% uptime by integrating the on premise hypervisor with automated ESXi host configuration management preventing errors</li>
+                        <li>Removed orphaned compute resources safely and efficiently by automating the housekeeping and updates of the master inventory</li>
+                        <li>Automated 100% of daily infrastructure health checks, enabling proactive monitoring and faster issue resolution for 1000+ resources</li>
+                    </ul>
+        </div>
+        </section>
+        <section id="volunteer">
+            <h2>Volunteering</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Ammobox Studios
+                </div>
+                <div class="item-header-subtitle">
+                    Speaker
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="date">
+                    Jan 2024 — Jan 2024
+                </div>
+            </div>
+            <div class="clearfix"></div>
+                    <div class="summary">
+                        <p>Technical Summit</p>
+                    </div>
+            
+                    <ul class="highlights">
+                        <li>Advocated for mindset shifts around automation, highlighting its role in scaling operations, reducing toil, and enabling developer productivity</li>
+                    </ul>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Level Up KL
+                </div>
+                <div class="item-header-subtitle">
+                    Speaker
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="date">
+                    Sep 2023 — Sep 2023
+                </div>
+            </div>
+            <div class="clearfix"></div>
+                    <div class="summary">
+                        <p>DevOps For Indies</p>
+                    </div>
+            
+                    <ul class="highlights">
+                        <li>Shared knowledge and best practices in DevOps for indie game developers, focusing on automation, CI/CD, and cloud infrastructure</li>
+                    </ul>
+        </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <div class="item-header-title">
+                    Universiti Tenaga Nasional
+                </div>
+                <div class="item-header-subtitle">
+                    Bachelor of Computer Science
+                </div>
+            </div>
+            <div class="item-details">
+                <div class="date">
+                    Sep 2014 — Sep 2017
+                </div>
+            </div>
+            <div class="clearfix"></div>
+                <ul class="courses">
+                    <li>Full Scholarship Recipient (2014 – 2017)</li>
+                    <li>Dean's List Honor (2014 – 2016)</li>
+                    <li>Gold Award – ICT Research Competition (2017)</li>
+                    <li>Second Runner-Up – Pro-C Programming Competition (2015)</li>
+                    <li>Certified Professional Requirements Engineering Participant (2015)</li>
+                    <li>Secretary – Global Outreach Program to Tokyo (2016)</li>
+                </ul>
+        </div>
+        </section>
+    </body>
+</html>
+<a href="./resume.html" target="_blank"><p>Download in PDF</p></a>
