@@ -1,0 +1,46 @@
+name: Export Resume to HTML and PDF
+
+on:
+  push:
+    paths:
+      - 'resume.json'
+      - '.github/workflows/html.yml'
+
+jobs:
+  export-resume-html-and-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+
+    - run: npm install
+    - run: npx playwright install chromium
+
+    - run: npm run export-html
+
+    - name: Prepare html for export PDF
+      run: |
+        sed -i 's/margin: 10mm 25mm;/margin: 5mm 5mm;/g' index.html
+
+    - run: npm run export-pdf
+
+    - name: Add link to html for downloading PDF
+      run: |
+        echo '<a href="./resume.html" target="_blank"><p>Download in PDF</p></a>' >> index.html
+        echo '<embed src="./resume.pdf" type="application/pdf" width=100% height=100% />' >> resume.html
+
+    - name: Commit and push index.html
+      uses: test-room-7/action-update-file@v2.0.0
+      with:
+        file-path: |
+          index.html
+          resume.html
+          resume.pdf
+        commit-msg: "chore: update resume HTML and PDF"
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages

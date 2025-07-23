@@ -1,0 +1,172 @@
+{
+  "basics": {
+    "name": "Ariff Azman",
+    "label": "DevOps Engineer",
+    "email": "contact@opariffazman.com",
+    "phone": "(+60) 124414248",
+    "website": "https://opariffazman.com",
+    "location": {
+      "city": "Kuala Lumpur",
+      "countryCode": "MY"
+    }
+  },
+  "work": [
+    {
+      "company": "Ammobox Studios",
+      "location": "Selangor",
+      "position": "DevOps Lead",
+      "url": "https://ammoboxstudios.com",
+      "startDate": "2022-09-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Automated build agent setup for Windows and Linux servers for consistent environments eliminating manual configuration",
+        "Enabled automated, traceable source engine build testing by embedding an idempotent environment setup within CI/CD",
+        "Accelerated development lifecycle by 90% by designing modular and agnostic CI/CD pipelines for 8 projects",
+        "Reduced release cycle time by 70% by automating the overall release processes for 8 games on Steam Store and Epic Game Store",
+        "Converted manual API deployment processes into automated workflows integrated with IaC tools, ensuring consistency and reliability",
+        "Standardized cloud resources across 5 projects by reusable Terraform modules for AWS enabling code reuse and maintainability",
+        "Developed a scalable Unreal Pixel Streaming infrastructure on AWS to decrease EC2 allocation time and minimize operational costs",
+        "Incorporated automatic build error alerts for all projects proactively notifying developers of issues, reducing debugging time",
+        "Enforcing cloud native best practices in security for AWS IAM roles and policies ensuring least privilege access and compliance",
+        "Integrated symbol uploading for 6 projects to crash and error reporting tool via CI/CD, enabling faster and accurate debugging",
+        "Implemented single sign on setup with OAuth2 for internal services allowing secure and seamless access for developers",
+        "Increased cloud resources management efficiency by 80% by developing a multi-tenant automation tool with ElectronJS",
+        "Expedited developer onboarding by managing repository setup and user access for SVN, Perforce, and Git version control systems",
+        "Eliminated local compilation needs saving developers' time by distributing development binaries through CI/CD pipeline"
+      ]
+    },
+    {
+      "company": "Exxon Mobil Corporation",
+      "location": "Kuala Lumpur",
+      "position": "Automation Engineer",
+      "url": "https://corporate.exxonmobil.com/",
+      "startDate": "2021-09-01",
+      "endDate": "2022-09-01",
+      "summary": "",
+      "highlights": [
+        "Migrated production API from cloud to on-premise solutions achieving 100% uptime and maintaining operational continuity",
+        "Reduced manual Azure AD configuration steps and potential errors by 95% by scripting role assignments with developed scripts",
+        "Achieved 100% API test coverage and reliability by integrating automated API tests into CI/CD pipeline",
+        "Simplified client application onboarding and adoption by 90% through the creation of comprehensive API documentation",
+        "Optimized storage usage by developing API automation to manage and prevent unintended removal of orphaned business content"
+      ]
+    },
+    {
+      "company": "Petronas Digital",
+      "location": "Kuala Lumpur",
+      "position": "Infrastructure Engineer",
+      "url": "https://www.petronas.com/",
+      "startDate": "2018-09-01",
+      "endDate": "2021-09-01",
+      "summary": "",
+      "highlights": [
+        "Optimized compute delivery time by automating provisioning and hardening eliminating manual configuration errors",
+        "Reduced disaster recovery completion time by 93% by automating ESXi host, storage, and VM recovery processes using developed scripts",
+        "Increased infrastructure management accuracy and ease of use to 100% by developing custom scripts for bulk resource operations",
+        "Secured 99% uptime by integrating the on premise hypervisor with automated ESXi host configuration management preventing errors",
+        "Removed orphaned compute resources safely and efficiently by automating the housekeeping and updates of the master inventory",
+        "Automated 100% of daily infrastructure health checks, enabling proactive monitoring and faster issue resolution for 1000+ resources"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Ammobox Studios",
+      "position": "Speaker",
+      "url": "https://ammoboxstudios.com",
+      "startDate": "2024-01-05",
+      "endDate": "2024-01-05",
+      "summary": "Technical Summit",
+      "highlights": [
+        "Advocated for mindset shifts around automation, highlighting its role in scaling operations, reducing toil, and enabling developer productivity"
+      ]
+    },
+    {
+      "organization": "Level Up KL",
+      "position": "Speaker",
+      "url": "https://mdec.my/levelupkl",
+      "startDate": "2023-09-27",
+      "endDate": "2023-09-29",
+      "summary": "DevOps For Indies",
+      "highlights": [
+        "Shared knowledge and best practices in DevOps for indie game developers, focusing on automation, CI/CD, and cloud infrastructure"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universiti Tenaga Nasional",
+      "url": "https://www.uniten.edu.my/",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Computer Science",
+      "startDate": "2014-09-29",
+      "endDate": "2017-09-29",
+      "score": "",
+      "courses": [
+        "Full Scholarship Recipient (2014 – 2017)",
+        "Dean's List Honor (2014 – 2016)",
+        "Gold Award – ICT Research Competition (2017)",
+        "Second Runner-Up – Pro-C Programming Competition (2015)",
+        "Certified Professional Requirements Engineering Participant (2015)",
+        "Secretary – Global Outreach Program to Tokyo (2016)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Infrastructure Management",
+      "keywords": [
+        "Terraform",
+        "CloudFormation",
+        "Ansible",
+        "VMware",
+        "Proxmox",
+        "Hyper-V",
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Platform Engineering",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Argo CD",
+        "GitLab CI",
+        "GitHub Actions",
+        "Jenkins",
+        "TeamCity",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "Observability & Reliability",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "InfluxDB",
+        "Telegraf"
+      ]
+    },
+    {
+      "name": "Automation",
+      "keywords": [
+        "PowerShell",
+        "Bash",
+        "Python",
+        "JavaScript",
+        "Git",
+        "SVN",
+        "Perforce"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
