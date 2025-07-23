@@ -1,23 +1,23 @@
 {
   "basics": {
-    "name": "Ariff Azman",
-    "label": "DevOps Engineer",
-    "email": "contact@opariffazman.com",
-    "phone": "(+60) 124414248",
-    "website": "https://opariffazman.com",
+    "name": "Lui Jee Wei",
+    "label": "Intern",
+    "email": "jeeweilui@gmail.com",
+    "phone": "(+60) 1127510155",
+    "website": "",
     "location": {
-      "city": "Kuala Lumpur",
+      "city": "Selangor",
       "countryCode": "MY"
     }
   },
   "work": [
     {
-      "company": "Ammobox Studios",
+      "company": "Silverlake Axis (Fermion Labs) Sdn. Bhd.",
       "location": "Selangor",
-      "position": "DevOps Lead",
-      "url": "https://ammoboxstudios.com",
-      "startDate": "2022-09-01",
-      "endDate": "",
+      "position": "Product Intern",
+      "url": "",
+      "startDate": "2025-03-17",
+      "endDate": "2025-08-29",
       "summary": "",
       "highlights": [
         "Automated build agent setup for Windows and Linux servers for consistent environments eliminating manual configuration",
@@ -52,47 +52,6 @@
         "Optimized storage usage by developing API automation to manage and prevent unintended removal of orphaned business content"
       ]
     },
-    {
-      "company": "Petronas Digital",
-      "location": "Kuala Lumpur",
-      "position": "Infrastructure Engineer",
-      "url": "https://www.petronas.com/",
-      "startDate": "2018-09-01",
-      "endDate": "2021-09-01",
-      "summary": "",
-      "highlights": [
-        "Optimized compute delivery time by automating provisioning and hardening eliminating manual configuration errors",
-        "Reduced disaster recovery completion time by 93% by automating ESXi host, storage, and VM recovery processes using developed scripts",
-        "Increased infrastructure management accuracy and ease of use to 100% by developing custom scripts for bulk resource operations",
-        "Secured 99% uptime by integrating the on premise hypervisor with automated ESXi host configuration management preventing errors",
-        "Removed orphaned compute resources safely and efficiently by automating the housekeeping and updates of the master inventory",
-        "Automated 100% of daily infrastructure health checks, enabling proactive monitoring and faster issue resolution for 1000+ resources"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Ammobox Studios",
-      "position": "Speaker",
-      "url": "https://ammoboxstudios.com",
-      "startDate": "2024-01-05",
-      "endDate": "2024-01-05",
-      "summary": "Technical Summit",
-      "highlights": [
-        "Advocated for mindset shifts around automation, highlighting its role in scaling operations, reducing toil, and enabling developer productivity"
-      ]
-    },
-    {
-      "organization": "Level Up KL",
-      "position": "Speaker",
-      "url": "https://mdec.my/levelupkl",
-      "startDate": "2023-09-27",
-      "endDate": "2023-09-29",
-      "summary": "DevOps For Indies",
-      "highlights": [
-        "Shared knowledge and best practices in DevOps for indie game developers, focusing on automation, CI/CD, and cloud infrastructure"
-      ]
-    }
   ],
   "education": [
     {
